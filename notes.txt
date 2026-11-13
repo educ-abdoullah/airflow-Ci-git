@@ -1,0 +1,59 @@
+Q1
+de base 0
+puis apres lancement 2 reussi et 2 echoue
+car les 2 dags ont été lance manuellement 1 fois et 1 fois en schudle 
+
+Q2
+4suc
+2fail
+2ups fail
+
+Q3
+Running dags 0 car aucun en cours dexecution
+active dags 2 car 2 en attente de schudle ou de trigger
+
+Q4
+Onglet Runs
+
+Q5
+car 1 task reussi ne valide pas l'éexecution de la dag entiere
+
+Q6 
+les 3 tasks sont validés
+
+Q7
+Dags Success
+
+Q8
+clear run retry la dags
+alors que mark as fait valider manuellement la dags
+
+
+TP3
+q1
+le dag n'est pas appele donc il ne tournera pas
+et donc ca fait une erreur dag not found
+
+
+postgre et pas localhost car ce nest pas le meme service que airflow mais sur lememe reseau
+
+pardefault 3306 et non a defini le 5432
+
+cela ne fonctionerai pas 
+
+airflow tasks test user_processing create_table
+
+airflow tasks list user_processing
+
+airflow db shell 
+
+code 200 cest ok
+is_done : indique si la condition est remplie
+xcom_value : transmet des donne
+
+
+ti = Task Instance.
+
+onglet XCom
+
+Oui sensible a la casse
